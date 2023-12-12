@@ -1,5 +1,5 @@
 import time
-
+import os
 
 class Login:
     def __init__(self, nome, sobrenome, idade):
@@ -101,3 +101,4 @@ else:
     print('Até mais')
     print('Fechando sistema...')
     time.sleep(3)
+    os.system('CLS')
